@@ -1,3 +1,8 @@
+// command line tool to replace a string from a file
+// maybe don't use this for something exceedingly long, or when the search string is unspecific
+//
+// USAGE: node find-and-replace.js FILE SEARCH STR
+
 const fs = require('fs');
 
 var file = process.argv[2];
